@@ -31,3 +31,29 @@ h1 {
 #cookie-btn:active {
   transform: scale(0.95);
 }
+footer {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.tiktok-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: #f5f3f3;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.tiktok-button:hover {
+  background-color: #521881;
+}
+
+.tiktok-button img {
+  height: 24px;
+  width: 24px;
+}
