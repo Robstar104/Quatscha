@@ -1,10 +1,33 @@
 body {
-  font-family: sans-serif;
   text-align: center;
-  padding: 50px;
-  background-color: #f4f4f4;
+  background: radial-gradient(circle, #fff6e5, #ffd6a5);
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 50px;
 }
 
 h1 {
+  font-size: 3rem;
+  color: #6b3e26;
+}
+
+#counter {
+  font-size: 2rem;
+  margin: 20px 0;
   color: #333;
+}
+
+#cookie-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#cookie-btn img {
+  width: 200px;
+  height: 200px;
+}
+
+#cookie-btn:active {
+  transform: scale(0.95);
 }
